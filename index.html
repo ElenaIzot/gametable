@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Игра Таблица</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="game-start">
+    <button class="btn-start">Начать</button>
+    <div>Начиная с "1" нажимайте на числа до тех пор, пока не дойдете до последнего</div>
+</div>
+
+<div hidden="true" class="game hidden" >
+    <div hidden id="messageFailed">Вы проиграли</div>
+    <div hidden id="messageWin">Вы выиграли</div>
+    <div hidden class="time">Времени осталось: <span id="timer"></span></div>
+    <div class="wrap"></div>
+    <button class="btn-restart">Начать сначала</button>
+</div>
+
+
+</body>
+</html>
